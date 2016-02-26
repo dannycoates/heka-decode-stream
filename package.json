@@ -1,0 +1,15 @@
+{
+  "name": "heka-decode-stream",
+  "version": "0.1.4",
+  "description": "Decode Heka's framing delimited protobufs into js objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Coates",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "protocol-buffers": "3.1.6",
+    "readable-stream": "2.0.5"
+  }
+}
